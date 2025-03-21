@@ -1,5 +1,5 @@
 #### ESTRUCTURA 1  
-# MANEJO DE VARIABLES  
+# VARIABLES Y TIPOS DE DATOS
 
 1. **Describa el por qué y para qué se utiliza.**  
 2. **Genere un ejemplo internamente en el recuadro.**  
@@ -8,7 +8,7 @@
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 
-// --
+println
 
 // --
 
