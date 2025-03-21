@@ -27,6 +27,6 @@ println
 ### Escribe una nota del cómo funciona la estructura  
 
 ```kotlin
-
+// EJERCICO CREADO EN CÓDIGO KOTLIN
 
 ```
