@@ -10,7 +10,7 @@
 
 println
 
-// --
+
 
 ```
 
@@ -27,10 +27,6 @@ println
 ### Escribe una nota del cómo funciona la estructura  
 
 ```kotlin
-// NOTA
 
-// --
-
-// --
 
 ```
