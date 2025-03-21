@@ -23,6 +23,7 @@ Char → Un solo carácter ('A', '1').
 - Booleanos:
 Boolean → Solo puede ser true o false
 
+---
 
 2. **Genere un ejemplo internamente en el recuadro.**  
    - Utilice un editor de código para lograrlo.  
