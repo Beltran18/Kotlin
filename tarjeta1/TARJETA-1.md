@@ -16,7 +16,7 @@ println
 
 ---
 
-### EN EL LISTADO COMPARTIDO BUSQUE EL ALGORITMO QUE CORRESPONDA Y EXPLÍQUELO PASO A PASO  
+### CREAR ALGORITMO PROPIO Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](#)**  
