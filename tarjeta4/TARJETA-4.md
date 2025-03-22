@@ -1,17 +1,17 @@
-#### ESTRUCTURA 1  
-# VARIABLES Y TIPOS DE DATOS
+#### ESTRUCTURA 4  
+# CONTROL DE FLUJO
 
 1. **Describa el por qué y para qué se utiliza.**
 
 En Kotlin, los controles de flujo son estructuras que permiten tomar decisiones y ejecutar diferentes bloques de código según ciertas condiciones.
 
-*¿Por qué que se usan?:*
+**¿Por qué que se usan?:**
 Porque permiten que un programa no sea lineal y pueda adaptarse a diferentes situaciones dependiendo de los datos de entrada o el contexto.
 
-*¿Para qué sirven?:*
+**¿Para qué sirven?:**
 Para evaluar condiciones y ejecutar acciones específicas según el resultado. 
 
-*Los principales controles de flujo en Kotlin son:*
+**Los principales controles de flujo en Kotlin son:**
 - if (condicional simple) → Evalúa una condición y ejecuta un bloque si es verdadera.
 - if-else (condicional con alternativa) → Si la condición es falsa, ejecuta otro bloque de código.
 - if-else if-else (múltiples condiciones) → Permite evaluar varias condiciones en cadena.
@@ -26,24 +26,60 @@ Para evaluar condiciones y ejecutar acciones específicas según el resultado.
 // EJEMPLO EN CÓDIGO KOTLIN
 
 fun main() {
-    // Ejemplo de uso de val y var
-    val nombre = "Samuel"  // No se puede cambiar
-    var edad = 17          // Se puede modificar
+    // Estudiante 1 - Evaluado con 'if-else'
+    val nombre1 = "Carlos Pérez"
+    var nota1 = 2.5
+    var aprobo1: Boolean
 
-    println("Nombre: $nombre")
-    println("Edad: $edad")
+    if (nota1 >= 3.0) {
+        aprobo1 = true
+    } else {
+        aprobo1 = false
+    }
 
-    edad = 18  // Se puede cambiar porque es 'var'
-    println("Nueva edad: $edad")
+    println("\n--- Estudiante 1 ---")
+    println("Nombre: $nombre1")
+    println("Nota: $nota1")
+    println("¿Aprobó? $aprobo1")
 
-    // Ejemplo con diferentes tipos de datos
-    val altura: Double = 1.78
-    val esEstudiante: Boolean = false
-    val inicial: Char = 'S'
+    // Estudiante 2 - Evaluado con 'if-else if-else'
+    val nombre2 = "Ana Gómez"
+    var nota2 = 3.8
+    var rendimiento2: String
 
-    println("Altura: $altura metros")
-    println("¿Es estudiante? $esEstudiante")
-    println("Inicial del nombre: $inicial")
+    if (nota2 >= 4.5) {
+        rendimiento2 = "Excelente"
+    } else if (nota2 >= 4.0) {
+        rendimiento2 = "Muy Bueno"
+    } else if (nota2 >= 3.0) {
+        rendimiento2 = "Bueno"
+    } else if (nota2 >= 2.0) {
+        rendimiento2 = "Insuficiente"
+    } else {
+        rendimiento2 = "Deficiente"
+    }
+
+    println("\n--- Estudiante 2 ---")
+    println("Nombre: $nombre2")
+    println("Nota: $nota2")
+    println("Rendimiento: $rendimiento2")
+
+    // Estudiante 3 - Evaluado con 'when'
+    val nombre3 = "Luis Rodríguez"
+    var nota3 = 4.7
+
+    val rendimiento3 = when {
+        nota3 >= 4.5 -> "Excelente"
+        nota3 >= 4.0 -> "Muy Bueno"
+        nota3 >= 3.0 -> "Bueno"
+        nota3 >= 2.0 -> "Insuficiente"
+        else -> "Deficiente"
+    }
+
+    println("\n--- Estudiante 3 ---")
+    println("Nombre: $nombre3")
+    println("Nota: $nota3")
+    println("Rendimiento: $rendimiento3")
 }
 
 
