@@ -2,26 +2,21 @@
 # VARIABLES Y TIPOS DE DATOS
 
 1. **Describa el por qué y para qué se utiliza.**
-En Kotlin, una variable es un espacio en la memoria que almacena un valor, el cual puede cambiar o permanecer constante.
-Los tipos de datos indican qué tipo de información se guarda en una variable, como números, texto o valores de verdadero/falso.
 
-*Tipos de Variables:*
-- val (constante): No se puede modificar después de asignarle un valor.
-- var (variable): Puede cambiar su valor en cualquier momento.
+En Kotlin, los controles de flujo son estructuras que permiten tomar decisiones y ejecutar diferentes bloques de código según ciertas condiciones.
 
-Tipos de Datos en Kotlin
-- Números:
-Int → Números enteros (10, -5, 200).
-Double → Números con decimales (3.14, 2.5).
-Float → Similar a Double, pero menos preciso.
-Long, Short, Byte → Variaciones de enteros con diferentes tamaños.
+*¿Por qué que se usan?:*
+Porque permiten que un programa no sea lineal y pueda adaptarse a diferentes situaciones dependiendo de los datos de entrada o el contexto.
 
-- Texto:
-String → Cadena de texto ("Hola, mundo").
-Char → Un solo carácter ('A', '1').
+*¿Para qué sirven?:*
+Para evaluar condiciones y ejecutar acciones específicas según el resultado. 
 
-- Booleanos:
-Boolean → Solo puede ser true o false
+*Los principales controles de flujo en Kotlin son:*
+- if (condicional simple) → Evalúa una condición y ejecuta un bloque si es verdadera.
+- if-else (condicional con alternativa) → Si la condición es falsa, ejecuta otro bloque de código.
+- if-else if-else (múltiples condiciones) → Permite evaluar varias condiciones en cadena.
+- when (alternativa a if-else if-else) → Más estructurado cuando hay muchas opciones posibles.
+
 
 
 2. **Genere un ejemplo internamente en el recuadro.**  
