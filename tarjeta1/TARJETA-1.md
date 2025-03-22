@@ -64,7 +64,7 @@ fun main() {
 
 ---
 
-### Escribe una nota del cómo funciona la estructura  
+### Algoritmo creado y explicación de cómo funciona la estructura  
 
 ```kotlin
 // EJERCICO CREADO EN CÓDIGO KOTLIN
