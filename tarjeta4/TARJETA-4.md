@@ -101,30 +101,41 @@ fun main() {
 // EJERCICO CREADO EN CÓDIGO KOTLIN
 
 fun main() {
-    // Declaración de variables inmutables (val) porque su valor no cambia
-    val nombre: String = "Juan Pérez"  // Nombre del estudiante (inmutable)
-    val edad: Int = 20                 // Edad del estudiante (inmutable)
-    val estatura: Double = 1.75         // Estatura del estudiante en metros (inmutable)
+    // Ingresos del usuario
+    val ingresos: Double = 4_200_000.0  // Cambia este valor para probar diferentes casos
 
-    // Declaración de variables mutables (var) porque su valor puede cambiar
-    var nota: Double = 2.0      // Nota inicial del estudiante (mutable)
-    var aprobo: Boolean = false // Estado inicial de aprobación (mutable)
+    // Variable para almacenar el impuesto a pagar (mutable porque cambiará según la condición)
+    var impuesto: Double = 0.0  
 
-    // Mostrar los datos iniciales del estudiante
-    println("Nombre: $nombre")         // Se imprime el nombre del estudiante
-    println("Edad: $edad años")        // Se imprime la edad del estudiante
-    println("Estatura: $estatura m")   // Se imprime la estatura del estudiante
-    println("Nota inicial: $nota")     // Se imprime la nota inicial del estudiante
-    println("¿Aprobó? $aprobo")        // Se imprime si el estudiante aprobó o no
+    // Verificación inicial con 'if-else' para saber si debe pagar impuestos
+    if (ingresos < 1_000_000) {
+        println("No debe pagar impuestos.")  // Si gana menos de $1,000,000, no paga nada
+    } else {
+        println("Debe pagar impuestos.")  // Si gana más de $1,000,000, aplicamos las tasas correspondientes
+    }
 
-    // Cambio de valores en las variables mutables
-    nota = 4.0    // Se actualiza la nota del estudiante
-    aprobo = true // Se actualiza el estado de aprobación
+    // Cálculo del impuesto con 'if-else if-else'
+    if (ingresos >= 1_000_000 && ingresos <= 3_000_000) {
+        impuesto = ingresos * 0.10  // 10% de impuestos
+    } else if (ingresos > 3_000_000 && ingresos <= 5_000_000) {
+        impuesto = ingresos * 0.15  // 15% de impuestos
+    } else if (ingresos > 5_000_000) {
+        impuesto = ingresos * 0.20  // 20% de impuestos
+    }
 
-    // Mostrar los datos después del cambio de nota
-    println("\n--- Actualización de datos ---")
-    println("Nueva nota: $nota")     // Se imprime la nueva nota
-    println("¿Aprobó ahora? $aprobo") // Se imprime si ahora aprobó
+    // Mostrar el impuesto calculado
+    println("Impuesto a pagar: $$impuesto")
+
+    // Clasificación del nivel de impuestos con 'when'
+    val nivelImpuesto = when {
+        impuesto == 0.0 -> "No aplica impuestos"
+        impuesto <= 300_000 -> "Bajo"
+        impuesto <= 750_000 -> "Medio"
+        else -> "Alto"
+    }
+
+    // Mostrar el nivel de impuestos
+    println("Nivel de impuesto: $nivelImpuesto")
 }
 
 
