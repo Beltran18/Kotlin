@@ -69,5 +69,32 @@ fun main() {
 ```kotlin
 // EJERCICO CREADO EN CÓDIGO KOTLIN
 
+fun main() {
+    // Declaración de variables inmutables (val) porque su valor no cambia
+    val nombre: String = "Juan Pérez"  // Nombre del estudiante (inmutable)
+    val edad: Int = 20                 // Edad del estudiante (inmutable)
+    val estatura: Double = 1.75         // Estatura del estudiante en metros (inmutable)
+
+    // Declaración de variables mutables (var) porque su valor puede cambiar
+    var nota: Double = 2.0      // Nota inicial del estudiante (mutable)
+    var aprobo: Boolean = false // Estado inicial de aprobación (mutable)
+
+    // Mostrar los datos iniciales del estudiante
+    println("Nombre: $nombre")         // Se imprime el nombre del estudiante
+    println("Edad: $edad años")        // Se imprime la edad del estudiante
+    println("Estatura: $estatura m")   // Se imprime la estatura del estudiante
+    println("Nota inicial: $nota")     // Se imprime la nota inicial del estudiante
+    println("¿Aprobó? $aprobo")        // Se imprime si el estudiante aprobó o no
+
+    // Cambio de valores en las variables mutables
+    nota = 4.0    // Se actualiza la nota del estudiante
+    aprobo = true // Se actualiza el estado de aprobación
+
+    // Mostrar los datos después del cambio de nota
+    println("\n--- Actualización de datos ---")
+    println("Nueva nota: $nota")     // Se imprime la nueva nota
+    println("¿Aprobó ahora? $aprobo") // Se imprime si ahora aprobó
+}
+
 
 ```
