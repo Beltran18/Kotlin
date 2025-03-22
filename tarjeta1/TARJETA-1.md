@@ -30,8 +30,26 @@ Boolean → Solo puede ser true o false
 ```kotlin
 // EJEMPLO EN CÓDIGO KOTLIN
 
-println
+fun main() {
+    // Ejemplo de uso de val y var
+    val nombre = "Samuel"  // No se puede cambiar
+    var edad = 17          // Se puede modificar
 
+    println("Nombre: $nombre")
+    println("Edad: $edad")
+
+    edad = 18  // Se puede cambiar porque es 'var'
+    println("Nueva edad: $edad")
+
+    // Ejemplo con diferentes tipos de datos
+    val altura: Double = 1.78
+    val esEstudiante: Boolean = false
+    val inicial: Char = 'S'
+
+    println("Altura: $altura metros")
+    println("¿Es estudiante? $esEstudiante")
+    println("Inicial del nombre: $inicial")
+}
 
 
 ```
