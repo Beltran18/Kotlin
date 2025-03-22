@@ -60,7 +60,7 @@ fun main() {
 - Genere el link del audio y el link de GitHub.  
 
 🔗 **[LINK DEL AUDIO](#)**  
-🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://raw.githubusercontent.com/Beltran18/Kotlin/refs/heads/main/tarjeta1/img-tarjeta1.png)**  
+🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](tarjeta1/img-tarjeta1.png)**  
 
 ---
 
