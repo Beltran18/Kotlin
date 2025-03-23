@@ -90,7 +90,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/Beltran18/Kotlin/blob/34bf201531fbec093f50bffcecaef06e06acf669/tarjeta4/audio-tarjeta4.ogg)**  
+🔗 **[LINK DEL AUDIO](https://github.com/Beltran18/Kotlin/blob/8c616057ccb26890efe3281186d317fc7a76afeb/tarjeta4/audio-tarjeta4.ogg)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Beltran18/Kotlin/blob/d0954c207715a25076b790a3bdaa720c2c26c71c/tarjeta4/img-tarjeta4.PNG)**  
 
 ---
