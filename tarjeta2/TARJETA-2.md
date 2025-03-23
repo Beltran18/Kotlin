@@ -1,4 +1,4 @@
-#### ESTRUCTURA 3
+#### ESTRUCTURA 2
 # OPERADORES MATH LOGICOS 
 
 1. **Describa el por qué y para qué se utiliza.**
