@@ -2,6 +2,7 @@
 # VARIABLES Y TIPOS DE DATOS
 
 1. **Describa el por qué y para qué se utiliza.**
+
 En Kotlin, una variable es un espacio en la memoria que almacena un valor, el cual puede cambiar o permanecer constante.
 Los tipos de datos indican qué tipo de información se guarda en una variable, como números, texto o valores de verdadero/falso.
 
