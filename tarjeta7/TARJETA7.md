@@ -2,8 +2,12 @@
 # LOOPERS, BUCLES
 
 1. **Describa el por qué y para qué se utiliza.**
-En Kotlin, una variable es un espacio en la memoria que almacena un valor, el cual puede cambiar o permanecer constante.
-Los tipos de datos indican qué tipo de información se guarda en una variable, como números, texto o valores de verdadero/falso.
+En Kotlin, un bucle es una estructura de control que permite ejecutar un bloque de código varias veces, dependiendo de una condición. En lugar de escribir el mismo código repetidamente, los bucles nos permiten automatizar tareas repetitivas de manera eficiente.
+
+**Kotlin nos ofrece tres tipos principales de bucles:**
+- for → Se usa cuando sabemos cuántas veces queremos repetir una acción, como recorrer una lista o un rango de números.
+- while → Se ejecuta mientras se cumpla una condición específica. No sabemos exactamente cuántas veces se repetirá, solo que continuará hasta que la condición sea falsa.
+- do-while → Es similar a while, pero con una diferencia clave: el bloque de código se ejecuta al menos una vez, incluso si la condición es falsa desde el principio.
 
 **Tipos de Variables:**
 - val (constante): No se puede modificar después de asignarle un valor.
