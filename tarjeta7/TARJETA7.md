@@ -11,6 +11,7 @@ En Kotlin, un bucle es una estructura de control que permite ejecutar un bloque 
 - do-while → Es similar a while, pero con una diferencia clave: el bloque de código se ejecuta al menos una vez, incluso si la condición es falsa desde el principio.
 
 **¿Para qué se usan los bucles?:**
+
 Los bucles son esenciales en la programación porque nos ayudan a:
 - Recorrer elementos en listas, arreglos o rangos de números.
 - Ejecutar tareas repetitivas como cálculos, validaciones o simulaciones.
