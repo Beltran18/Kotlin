@@ -69,30 +69,38 @@ fun main() {
 // EJERCICO CREADO EN CÓDIGO KOTLIN
 
 fun main() {
-    // Declaración de variables inmutables (val) porque su valor no cambia
-    val nombre: String = "Juan Pérez"  // Nombre del estudiante (inmutable)
-    val edad: Int = 20                 // Edad del estudiante (inmutable)
-    val estatura: Double = 1.75         // Estatura del estudiante en metros (inmutable)
+    // -------------------------
+    // Bucle 'for': Sumar los números del 1 al 5
+    // -------------------------
+    var suma = 0 // Variable para almacenar la suma
+    for (i in 1..5) { // Iteramos del 1 al 5
+        suma += i // Sumamos el valor de i a la variable suma
+    }
+    println("Suma de los números del 1 al 5: $suma")
 
-    // Declaración de variables mutables (var) porque su valor puede cambiar
-    var nota: Double = 2.0      // Nota inicial del estudiante (mutable)
-    var aprobo: Boolean = false // Estado inicial de aprobación (mutable)
+    // -------------------------
+    // Bucle 'while': Contar números impares del 1 al 10
+    // -------------------------
+    var contador = 1 // Empezamos en 1
+    var impares = 0 // Contador de números impares
+    while (contador <= 10) { // Mientras el número sea menor o igual a 10
+        if (contador % 2 != 0) { // Verificamos si es impar
+            impares++ // Aumentamos el contador de impares
+        }
+        contador++ // Incrementamos el número
+    }
+    println("Cantidad de números impares entre 1 y 10: $impares")
 
-    // Mostrar los datos iniciales del estudiante
-    println("Nombre: $nombre")         // Se imprime el nombre del estudiante
-    println("Edad: $edad años")        // Se imprime la edad del estudiante
-    println("Estatura: $estatura m")   // Se imprime la estatura del estudiante
-    println("Nota inicial: $nota")     // Se imprime la nota inicial del estudiante
-    println("¿Aprobó? $aprobo")        // Se imprime si el estudiante aprobó o no
-
-    // Cambio de valores en las variables mutables
-    nota = 4.0    // Se actualiza la nota del estudiante
-    aprobo = true // Se actualiza el estado de aprobación
-
-    // Mostrar los datos después del cambio de nota
-    println("\n--- Actualización de datos ---")
-    println("Nueva nota: $nota")     // Se imprime la nueva nota
-    println("¿Aprobó ahora? $aprobo") // Se imprime si ahora aprobó
+    // -------------------------
+    // Bucle 'do-while': Multiplicar los números del 1 al 5
+    // -------------------------
+    var producto = 1 // Variable para almacenar la multiplicación
+    var num = 1 // Empezamos en 1
+    do {
+        producto *= num // Multiplicamos el número actual por el producto
+        num++ // Incrementamos el número
+    } while (num <= 5) // Se repite mientras num sea menor o igual a 5
+    println("Multiplicación de los números del 1 al 5: $producto")
 }
 
 
