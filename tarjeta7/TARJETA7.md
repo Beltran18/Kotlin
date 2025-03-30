@@ -2,6 +2,7 @@
 # LOOPERS, BUCLES
 
 1. **Describa el por qué y para qué se utiliza.**
+
 En Kotlin, un bucle es una estructura de control que permite ejecutar un bloque de código varias veces, dependiendo de una condición. En lugar de escribir el mismo código repetidamente, los bucles nos permiten automatizar tareas repetitivas de manera eficiente.
 
 **Kotlin nos ofrece tres tipos principales de bucles:**
@@ -9,23 +10,14 @@ En Kotlin, un bucle es una estructura de control que permite ejecutar un bloque 
 - while → Se ejecuta mientras se cumpla una condición específica. No sabemos exactamente cuántas veces se repetirá, solo que continuará hasta que la condición sea falsa.
 - do-while → Es similar a while, pero con una diferencia clave: el bloque de código se ejecuta al menos una vez, incluso si la condición es falsa desde el principio.
 
-**Tipos de Variables:**
-- val (constante): No se puede modificar después de asignarle un valor.
-- var (variable): Puede cambiar su valor en cualquier momento.
+**¿Para qué se usan los bucles?:**
+Los bucles son esenciales en la programación porque nos ayudan a:
+- Recorrer elementos en listas, arreglos o rangos de números.
+- Ejecutar tareas repetitivas como cálculos, validaciones o simulaciones.
+- Esperar una condición específica antes de continuar (por ejemplo, pedir datos hasta que sean correctos).
+- Optimizar código, evitando la repetición manual de instrucciones.
 
-**Tipos de Datos en Kotlin**
-- Números:
-Int → Números enteros (10, -5, 200).
-Double → Números con decimales (3.14, 2.5).
-Float → Similar a Double, pero menos preciso.
-Long, Short, Byte → Variaciones de enteros con diferentes tamaños.
-
-- Texto:
-String → Cadena de texto ("Hola, mundo").
-Char → Un solo carácter ('A', '1').
-
-- Booleanos:
-Boolean → Solo puede ser true o false
+Cada tipo de bucle es útil en diferentes escenarios, y la elección depende de la situación que queremos resolver.
 
 
 
