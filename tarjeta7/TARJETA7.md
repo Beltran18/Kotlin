@@ -29,24 +29,25 @@ Cada tipo de bucle es útil en diferentes escenarios, y la elección depende de 
 // EJEMPLO EN CÓDIGO KOTLIN
 
 fun main() {
-    // Ejemplo de uso de val y var
-    val nombre = "Samuel"  // No se puede cambiar
-    var edad = 17          // Se puede modificar
+    // Bucle 'for': Recorre un rango de 1 a 5
+    println("Bucle 'for':")
+    for (i in 1..5) {
+        println(i)
+    }
 
-    println("Nombre: $nombre")
-    println("Edad: $edad")
+    println("\nBucle 'while':")
+    var j = 1
+    while (j <= 5) {
+        println(j)
+        j++ // Incremento para evitar bucle infinito
+    }
 
-    edad = 18  // Se puede cambiar porque es 'var'
-    println("Nueva edad: $edad")
-
-    // Ejemplo con diferentes tipos de datos
-    val altura: Double = 1.78
-    val esEstudiante: Boolean = false
-    val inicial: Char = 'S'
-
-    println("Altura: $altura metros")
-    println("¿Es estudiante? $esEstudiante")
-    println("Inicial del nombre: $inicial")
+    println("\nBucle 'do-while':")
+    var k = 1
+    do {
+        println(k)
+        k++ // Incremento para evitar bucle infinito
+    } while (k <= 5)
 }
 
 
