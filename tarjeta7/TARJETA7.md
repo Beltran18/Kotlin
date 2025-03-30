@@ -1,5 +1,5 @@
-#### ESTRUCTURA 1  
-# VARIABLES Y TIPOS DE DATOS
+#### ESTRUCTURA 7  
+# LOOPERS, BUCLES
 
 1. **Describa el por qué y para qué se utiliza.**
 En Kotlin, una variable es un espacio en la memoria que almacena un valor, el cual puede cambiar o permanecer constante.
