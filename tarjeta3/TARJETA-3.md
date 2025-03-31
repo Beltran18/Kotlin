@@ -80,7 +80,6 @@ fun main() {
 // EJERCICO CREADO EN CÓDIGO KOTLIN
 
 fun main() {
-    fun main() {
     // Solicitar al usuario que ingrese una palabra
     print("Ingresa una palabra: ")  // print() para que el cursor quede en la misma línea
     val palabra = readLine() ?: ""  // Captura la entrada del usuario
@@ -90,7 +89,6 @@ fun main() {
 
     // Mostrar los resultados con println
     println("\nPalabra modificada: $palabraModificada")
-}
 }
 
 
