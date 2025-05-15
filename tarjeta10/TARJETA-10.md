@@ -1,5 +1,5 @@
-#### ESTRUCTURA 1  
-# VARIABLES Y TIPOS DE DATOS
+#### ESTRUCTURA 10
+# PROGRAMACIÓN ORIENTADA A OBJETOS
 
 1. **Programación orientada a objetos (POO).**
 La Programación Orientada a Objetos (POO) en Kotlin se usa para organizar, estructurar y reutilizar el código de forma eficiente y mantenible, especialmente en aplicaciones grandes o complejas, como las de Android. 
