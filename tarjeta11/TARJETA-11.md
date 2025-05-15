@@ -54,7 +54,7 @@ fun main() {
 ### CREAR ALGORITMO PROPIO Y EXPLÍQUELO PASO A PASO  
 - Genere el link del audio y el link de GitHub.  
 
-🔗 **[LINK DEL AUDIO](https://github.com/Beltran18/Kotlin/blob/beb2dc12fb0ebcc7ef5fa44f7ba7ed77a11bd0b3/tarjeta1/audio-tarjeta1.ogg)**  
+🔗 **[LINK DEL AUDIO](https://github.com/Beltran18/Kotlin/blob/2c7aa2d559b56b7eb53d085b93300b6986bed734/tarjeta11/audio-tarjeta11.ogg)**  
 🔗 **[LINK CÓDIGO PROBADO POR US Y GUARDADO EN GITHUB](https://github.com/Beltran18/Kotlin/blob/ffb30c3882e26553d03d10c806900bbb94de1c31/tarjeta11/img-tarjeta11.jpg)**  
 
 ---
